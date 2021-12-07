@@ -26,4 +26,4 @@ Siamese Neural Networks에서 사용한 베이스라인 모델은 U-Net, Residua
 최종적으로 본 참가팀은 A2C, A4C 이미지를 동시에 학습이 가능한 Siamese Neural Networks에 auxiliary loss를 사용하여 모델의 학습 시간을 단축시키며, 모델의 분할 정확도를 향상 시킨 모델을 개발하였습니다.
 
 ## Model_Architecture
-<img src="모델_그림.png" width="1000px" height="500px" title="px(픽셀) 크기 설정" alt="Model_Architecture"></img><br/>
+<img src="Model_Architecture.png" width="1000px" height="500px" title="px(픽셀) 크기 설정" alt="Model_Architecture"></img><br/>
