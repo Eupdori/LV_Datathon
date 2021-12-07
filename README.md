@@ -24,3 +24,5 @@
 Siamese Neural Networks에서 사용한 베이스라인 모델은 U-Net, Residual U-Net, Attention U-Net, RA U-Net(Residual Attention) 총 4가지 모델에 대해 성능 테스트후 Attention U-Net을 사용하였으며, 각 모델의 decoder에서 두번째 layer에서 auxiliary loss를 계산하고 마지막 layer에서 얻은 loss와 더하여 최종 loss를 계산하였습니다.
 
 최종적으로 본 참가팀은 A2C, A4C 이미지를 동시에 학습이 가능한 Siamese Neural Networks에 auxiliary loss를 사용하여 모델의 학습 시간을 단축시키며, 모델의 분할 정확도를 향상 시킨 모델을 개발하였습니다.
+
+<img src="모델_그림.png" width="1000px" height="500px" title="px(픽셀) 크기 설정" alt="Model_Architecture"></img><br/>
